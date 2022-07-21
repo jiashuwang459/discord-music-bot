@@ -43,7 +43,17 @@ npm install
 
 ### Configuration
 
-After cloning the project and installing all dependencies, you need to add your Discord API token in the config.json file.
+After cloning the project and installing all dependencies, you need to create a config.json file, and add your Discord API token.
+
+Sample config.json:
+
+```json
+{
+    "token": "Your Token Here",
+    "activityType": "PLAYING",
+    "activity": "your music selections"
+}
+```
 
 ### Starting the application
 
